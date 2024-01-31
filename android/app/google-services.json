@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "280379917232",
+    "project_id": "green-pulse-c8723",
+    "storage_bucket": "green-pulse-c8723.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280379917232:android:93e8313910adf97b518c75",
+        "android_client_info": {
+          "package_name": "com.example.green_pulse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRUVa-kOmNUELZPCY4anoEV84H5bZNRbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
