@@ -10,11 +10,13 @@ class BottomNavigationBarWidget extends StatefulWidget {
 
 class _BottomNavigationBarWidgetState
     extends State<BottomNavigationBarWidget> {
-  int selectedIndex = 0;
+  int selectedIndex =0 ;
 
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
+      unselectedItemColor: Color.fromARGB(255, 134, 157, 240),
+      selectedItemColor: Color.fromARGB(255, 134, 157, 240),
       currentIndex: selectedIndex,
       onTap: (index) {
         setState(() {
@@ -23,13 +25,13 @@ class _BottomNavigationBarWidgetState
 
         switch (index) {
           case 0:
-            Navigator.pushReplacementNamed(context, '/dashboard');
+            Navigator.pushNamed(context, '/dashboard');
             break;
           case 1:
-            Navigator.pushReplacementNamed(context, '/analytics');
+            Navigator.pushNamed(context, '/analytics');
             break;
           case 2:
-            Navigator.pushReplacementNamed(context, '/profile');
+            Navigator.pushNamed(context, '/profile');
             break;
         }
       },

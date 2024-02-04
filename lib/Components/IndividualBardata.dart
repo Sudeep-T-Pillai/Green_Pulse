@@ -1,4 +1,4 @@
-
+  
 
   class IndividualBardata{
     final int x;

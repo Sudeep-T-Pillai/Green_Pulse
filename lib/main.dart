@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:green_pulse/pages/Analyitcs.dart';
 import 'package:green_pulse/pages/Profile.dart';
+import 'package:green_pulse/pages/authuser.dart';
 import 'package:green_pulse/pages/dashboard.dart';
 import 'package:green_pulse/pages/getstartedhome.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -19,12 +20,12 @@ class MyApp extends StatelessWidget{
             @override
             Widget build(BuildContext context){
               return  MaterialApp(
-                home: getstartedhome(),
+                home: AuthUser(),
                 routes: {
                      '/dashboard': (context) => Dashboard(),
                      '/analytics': (context) => AnalyticsPage(),
                      '/profile': (context) => ProfilePage(),
-      },
+                    },
                 
               );
             }
