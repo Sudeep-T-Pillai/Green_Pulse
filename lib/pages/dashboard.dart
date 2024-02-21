@@ -60,7 +60,7 @@ class _DashboardState extends State<Dashboard> {
                                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
                                  );
                                } else {
-                                 return Text('Username not available');
+                                 return Text('Mr Cactus');
                                }
                              },
                            ),

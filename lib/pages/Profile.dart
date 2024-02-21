@@ -4,6 +4,7 @@ import 'package:green_pulse/navigationbar.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+
 class ProfilePage extends StatefulWidget {
   const ProfilePage({Key? key}) : super(key: key);
 
@@ -12,7 +13,7 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
-  final currentUser = FirebaseAuth.instance.currentUser!;
+  final currentUser = FirebaseAuth.instance.currentUser;
   final UserProfileService _userService = UserProfileService();
 
   // Function to handle sign-out
@@ -20,7 +21,7 @@ class _ProfilePageState extends State<ProfilePage> {
     try {
       await FirebaseAuth.instance.signOut();
       // Navigate to the login page after signing out
-      Navigator.pushReplacementNamed(context, '/login');
+      Navigator.pushReplacementNamed(context, '/getstartedhome');
     } catch (e) {
       print('Error signing out: $e');
       // Handle sign-out error, if any
@@ -62,14 +63,14 @@ class _ProfilePageState extends State<ProfilePage> {
                       style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     );
                   } else {
-                    return Text('Username not available');
+                    return Text('Mr Cactus');
                   }
                 },
               ),
               SizedBox(height: 8),
               if (currentUser != null)
                 Text(
-                 currentUser.email!,
+                  currentUser!.email!,
                   style: TextStyle(fontSize: 16, color: Colors.grey),
                 ),
               SizedBox(height: 32),

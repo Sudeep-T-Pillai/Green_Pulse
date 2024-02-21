@@ -20,11 +20,13 @@ class MyApp extends StatelessWidget{
             @override
             Widget build(BuildContext context){
               return  MaterialApp(
+                debugShowCheckedModeBanner: false,
                 home: AuthUser(),
                 routes: {
                      '/dashboard': (context) => Dashboard(),
                      '/analytics': (context) => AnalyticsPage(),
                      '/profile': (context) => ProfilePage(),
+                     '/getstartedhome': (context)=> getstartedhome()
                     },
                 
               );
