@@ -1,5 +1,10 @@
 # Green Pulse App Instructions
 
+-------------------------------------------UPDATE--------------------------------------------------------------
+This project aims to develop a fully-fledged Android application based on an idea that wasn't shortlisted for a solution challenge. Despite the setback, I am determined to bring this idea to life.
+As of now, data for training a model is not available. To address this, I plan to create a dataset starting in late June 2024. The dataset is expected to be completed around September 2024.Contributions and feedback are welcome. 
+If you are interested in collaborating or have suggestions for improvement, please feel free to reach out.
+
 ------------------How to use-----------------------------------------
 
 Download the zip file.
@@ -41,3 +46,6 @@ Tram		2022	28.61
 Introducing Green Pulse, your personal carbon detective. This app empowers you to understand your environmental impact, one step at a time. Green Pulse instantly calculates your carbon footprint. Monitor your weekly and monthly trends, set personal goals, and celebrate your achievements. Every green mile matters, and Green Pulse helps you see how your journey adds up to a positive change.
  Green Pulse aligns with several UN Sustainable Development Goals, including Good Health & Well-being (SDG 3), Sustainable Cities & Communities (SDG 11), Responsible Consumption & Production (SDG 12), and Climate Action (SDG 13). By tracking your footprint and choosing green, you're directly contributing to a better future for all
 Every step makes a difference. Track your impact, choose green
+
+
+
