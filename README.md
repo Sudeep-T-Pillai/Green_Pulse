@@ -3,7 +3,7 @@
 -------------------------------------------UPDATE--------------------------------------------------------------
 
 This project aims to develop a fully-fledged Android application based on an idea that wasn't shortlisted for a solution challenge. Despite the setback, I am determined to bring this idea to life.
-As of now, data for training a model is not available. To address this, I plan to create a dataset starting in late June 2024. The dataset is expected to be completed around September 2024.Contributions and feedback are welcome. 
+As of now, data for training a model is not available. To address this, I plan to create a dataset starting in late June 2024. The dataset is expected to be completed around September 2025.Contributions and feedback are welcome. 
 If you are interested in collaborating or have suggestions for improvement, please feel free to reach out.
 
 ------------------How to use-----------------------------------------
